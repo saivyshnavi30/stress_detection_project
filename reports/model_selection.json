@@ -1,0 +1,68 @@
+{
+  "selected_model_by_mean_MAE": "Extra Trees",
+  "selection_rule": "Lowest mean Leave-One-Player-Out MAE; RMSE used as secondary criterion.",
+  "rows": 1548,
+  "predictors": 126,
+  "players": [
+    "player_1",
+    "player_2",
+    "player_3",
+    "player_4"
+  ],
+  "comparison": [
+    {
+      "model": "Extra Trees",
+      "MAE_mean": 0.04833787653256856,
+      "MAE_std": 0.004525167538155916,
+      "RMSE_mean": 0.06364393625719565,
+      "RMSE_std": 0.006148811245533456,
+      "R2_mean": -0.05640407385725699,
+      "R2_std": 0.10463052358015741
+    },
+    {
+      "model": "Random Forest",
+      "MAE_mean": 0.0489837926853952,
+      "MAE_std": 0.003422666630940217,
+      "RMSE_mean": 0.06415808283667376,
+      "RMSE_std": 0.005436752585620147,
+      "R2_mean": -0.07598466726538697,
+      "R2_std": 0.10915951477016543
+    },
+    {
+      "model": "Dummy Mean",
+      "MAE_mean": 0.04962994790908009,
+      "MAE_std": 0.006544575655824496,
+      "RMSE_mean": 0.06602304897331969,
+      "RMSE_std": 0.00926355910279426,
+      "R2_mean": -0.13253876083552002,
+      "R2_std": 0.16921218553950848
+    },
+    {
+      "model": "Hist Gradient Boosting",
+      "MAE_mean": 0.05172537380349831,
+      "MAE_std": 0.0037954266809588563,
+      "RMSE_mean": 0.06617960743155175,
+      "RMSE_std": 0.005739998814475637,
+      "R2_mean": -0.14305492273886394,
+      "R2_std": 0.09486182100711354
+    },
+    {
+      "model": "SVR",
+      "MAE_mean": 0.05557753032320506,
+      "MAE_std": 0.006674607005688861,
+      "RMSE_mean": 0.07087888509904824,
+      "RMSE_std": 0.007551504360981647,
+      "R2_mean": -0.31224818763837,
+      "R2_std": 0.17175886109824748
+    },
+    {
+      "model": "Ridge",
+      "MAE_mean": 0.09549514335919637,
+      "MAE_std": 0.0834468279310719,
+      "RMSE_mean": 0.11452386415310839,
+      "RMSE_std": 0.08877427045994614,
+      "R2_mean": -4.216483646402618,
+      "R2_std": 7.916157687068922
+    }
+  ]
+}
